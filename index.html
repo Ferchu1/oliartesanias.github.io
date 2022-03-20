@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oli Artesanias</title>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/f845b9182b.js" crossorigin="anonymous"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald:wght@200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Mono:wght@100&family=Sen:wght@800&display=swap" rel="stylesheet">  
+    <!-- CSS CUSTOM -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- Nav desktop-->
+    <header>
+            <h1 class="header__h1">Oli Artesanias</h1>
+            <nav class="nav-responsive">
+                <ul class="nav__ul-responsive">
+                    <li class="nav__li-responsive"><a class="nav__a-responsive" href="./index.html">Inicio</a></li>
+                    <li class="nav__li-responsive"><a class="nav__a-responsive btn-productos" href="index.html#productos">Productos</a></li>
+                    <li class="nav__li-responsive"><a class="nav__a-responsive" href="./galeria.html">galeria</a></li>
+                    <li class="nav__li-responsive"><a class="nav__a-responsive" href="#contactame">Contactanos</a></li>
+                </ul>
+            </nav>
+            <a class="fas fa-bars btn-menu"></a>
+    </header>
+        <!-- navbar celular-->
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a class="nav__a" href="./index.html">Inicio</a></li>
+                <li class="nav__li"><a class="nav__a btn-productos" href="#">Productos</a></li>
+                <li class="nav__li"><a class="nav__a" href="./galeria.html">galeria</a></li>
+                <li class="nav__li"><a class="nav__a" href="#contactame">Contactanos</a></li>
+            </ul>
+        </nav>
+        <!-- presentacion -->
+    <section class="cards-inicio" id="inicio">
+            <div class="presentacion-vicky div-cards-one">
+                <p class="presentacion-p p-hola p-hola-vic">Hola!!</p>
+                <img class="img-vicky img-presentacion" src="img/vic.png" alt="maria victoria piga - oli artesanias - macrame - historia del macrame">
+                <p class="presentacion-p">Me llamo Victoria Piga soy artesana y docente hace más de 20 años y actualmente estoy trabajando con macrame haciendo pulseras,vinchas y collares.</p>
+            </div>
+           <div class="presentacion-chelo div-cards-two img-presentacion">
+                <p class="presentacion-p div-cards-two__p-title p-hola">Hola!!</p>
+                <img class="img-chelo div-cards-two__img" src="img/chelo.jpg" alt="marcelo pessoa - titeres - marionetas - oli artesanias">
+                <p class="presentacion-p div-cards-two__p-description">Me llamo Marcelo Pessoa pero me conocen en la feria como el chelo, soy Artesano y Artista plástico ahora estoy haciendo marionetas de madera (perros,cocodrilos y avestruces).</p>
+           </div>
+    </section>
+    <section class="card-inicio-responsive">
+        <div class="div-container-vic-responsive">
+            <img src="img/vic.png" alt="">
+            <div class="text-container-vic">
+                <p class="text-container-vic__title">Hola</p>
+                <p class="text-container-vic__description">Me llamo Victoria Piga soy artesana y docente hace más de 20 años y actualmente estoy trabajando con macrame haciendo pulseras,vinchas y collares.</p>
+            </div>
+        </div>
+        <div class="div-container-chelo-responsive">
+            <img src="img/chelo.jpg" alt="">
+            <div class="text-container-chelo">
+                <p class="text-container-chelo__title">Hola</p>
+                <p class="text-container-chelo__description">Me llamo Marcelo Pessoa pero me conocen en la feria como el Chelo, soy Artesano y Artista plástico ahora estoy haciendo marionetas de madera (Perros,Cocodrilos y Avestruces).</p>
+            </div>
+        </div>
+    </section>
+    <!-- productos -->
+    <section class="cards-products" id="productos">
+        <div class="div-container">
+            <h3 class="cards-products__h3">Macrame</h3>
+            <div class="grid-container-macrame">
+                <img class="img-macrame" src="./img/collares/collares-1.jpg" alt="collares de macrame concordia - macrame - oli aresanias - artesanias">
+                <img class="img-macrame" src="./img/collares/collares-2.jpg" alt="artesanias - concordia - feria - plaza 25 de mayo">
+                <img class="img-macrame" src="./img/vinchas/vinchas-3.jpg" alt="artesanias concordia - comparti concordia - oli-artesanias de concordia">
+                <img class="img-macrame" src="./img/pulseras/pulseras-1.jpg" alt="artesanias - pulseras - vinchas - collares">
+            </div>
+        </div>
+        <a href="galeria.html" class="bottom-ver-mas bottom-1">ver más</a>
+        <div class="div-container">
+            <h3 class="cards-products__h3">Titeres</h3>
+            <div class="grid-container-titeres">
+                <img src="img/titeres/1.jpeg" alt="" class="img-titeres">
+                <img src="img/titeres/2.jpg" alt="" class="img-titeres">
+                <img src="img/titeres/3.jpg" alt="" class="img-titeres">
+            </div>
+        </div>
+        <a href="galeria.html" class="bottom-ver-mas bottom-2">ver más</a>
+    </section>
+    <footer class="footer" id="contactame">
+        <p class="footer-logo">Oli Artesanias</p>
+        <p class="footer-copy">Copyright - todos los derechos reservados</p>
+        <div class=".footer__grid-container">
+            <img src="img/facebook.svg" alt="" class="img-redes">
+            <img src="img/instagram.svg" alt="" class="img-redes">
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
